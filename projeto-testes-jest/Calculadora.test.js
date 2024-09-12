@@ -26,4 +26,13 @@ describe('Testes da Calculadora', ()=>{
     test('Deve lançar erro ao dividir por zero', ()=>{
         expect(()=> calc.divide(2,0)).toThrow('Divisão por zero não é permitida!');
     });
+
+    test('Deve somar número negativos', ()=>{
+        expect(calc.soma(-2,-1)).toBe(-3);
+    });
+
+    test('Deve dividindo dois número que resulta em um número fracionário', ()=>{
+        expect(calc.divide(5,2)).toBe(2.5);
+    });
+    
 });
