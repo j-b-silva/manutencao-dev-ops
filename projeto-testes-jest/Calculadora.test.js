@@ -34,5 +34,14 @@ describe('Testes da Calculadora', ()=>{
     test('Deve dividindo dois número que resulta em um número fracionário', ()=>{
         expect(calc.divide(5,2)).toBe(2.5);
     });
-    
+
+    test('Deve mockar setTimeout para soma com delay', ()=>{
+        jest.useFakeTimers();
+        const callback = jest.fn();
+        calc.somaComDelay(2,3, callback);
+
+        jest.advanceTimersByTime(1000);
+        expect(callback).toHaveBeenCalledWith(5);
+    });
+
 });

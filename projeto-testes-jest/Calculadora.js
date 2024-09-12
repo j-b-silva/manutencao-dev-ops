@@ -15,6 +15,13 @@ class Calculadora{
     multiplica(a,b){
         return a*b;
     };
+
+    somaComDelay(a,b,callback){
+        setTimeout(()=>{
+            const resultado = this.soma(a,b);
+            callback(resultado);
+        }, 1000);
+    };
 }
 
 module.exports = Calculadora;
