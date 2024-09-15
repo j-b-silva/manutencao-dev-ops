@@ -1,6 +1,6 @@
 {
-  "name": "manutencao-dev-ops",
-  "version": "1.0.0",
+  "name": "manutencao-devops",
+  "version": "1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
