@@ -22,30 +22,30 @@ jobs:
       - name: Passo 1
         run: echo "Executando o primeiro passo"
       - name: Passo 2
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o segundo passo"
       - name: Passo 3
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o terceiro passo"
   trabalho2:
     name: Job 2
     runs-on: ubuntu-latest
 #Agora irei programar os passos do script 
     steps:
       - name: Passo 4
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o quarto passo"
       - name: Passo 5
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o quinto passo"
       - name: Passo 6
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o sexto passo"
   trabalho3:
     name: Job 3
     runs-on: ubuntu-latest
 #Agora irei programar os passos do script 
     steps:
       - name: Passo 7
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o setimo passo"
       - name: Passo 8
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o oitavo passo"
       - name: Passo 9
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o nono passo"
         
    
